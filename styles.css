@@ -1,0 +1,52 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base font and body setting */
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px; /* Sets the default font size */
+  line-height: 1.5;
+  background-color: hsl(212, 45%, 89%); /* Light slate background */
+  color: hsl(218, 44%, 22%); /* Slate-900 text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Center content vertically and horizontally */
+}
+
+/* Container settings */
+.container {
+  background-color: hsl(0, 0%, 100%); /* White background */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  max-width: 320px;
+  text-align: center;
+}
+
+/* Basic typography settings */
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  margin: 20px 0;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(216, 15%, 48%);
+}
+
+/* Image settings */
+.qr-code {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
