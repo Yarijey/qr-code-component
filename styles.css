@@ -51,21 +51,21 @@ p {
   width: 100%; /* Ensures the image scales responsively */
   max-width: 250px; /* Limits the maximum width on larger screens */
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 /* Responsive Media Query */
-@media (min-width: 375px) {
+@media (min-width: 768px) {
   .container {
     max-width: 375px;
     padding: 24px;
   }
 
   h1 {
-    font-size: 15px;
+    font-size: 24px;
   }
 
   p {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
