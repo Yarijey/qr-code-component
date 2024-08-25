@@ -28,7 +28,7 @@ body {
 
 /* Card */
 .card {
-  max-width: 320px; /* Limits the width of the card */
+  max-width: 240px; /* Limits the width of the card */
   margin: 0 auto;
 }
 
@@ -55,7 +55,7 @@ p {
 }
 
 /* Responsive Media Query */
-@media (min-width: 768px) {
+@media (min-width: 375px) {
   .container {
     max-width: 375px;
     padding: 24px;
